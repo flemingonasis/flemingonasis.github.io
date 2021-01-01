@@ -14,7 +14,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- google font -->
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700,800' rel='stylesheet' type='text/css'>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -54,18 +54,25 @@
       <!-- end footer -->
     </div>
     <!-- jQuery -->
+    <%= javascript_include_tag "jquery", "data-turbolinks-track" => "reload" %>
     <!-- <script src="js/jquery.js"></script> -->
     <!-- bootstrap -->
+    <%= javascript_include_tag "bootstrap.min", "data-turbolinks-track" => "reload" %>
     <!-- <script src="js/bootstrap.min.js"></script> -->
     <!-- fullpage -->
+    <%= javascript_include_tag "jquery.fullPage", "data-turbolinks-track" => "reload" %>
     <!-- <script src="js/jquery.fullPage.js"></script> -->
     <!-- smoothScroll -->
+    <%= javascript_include_tag "smoothscroll", "data-turbolinks-track" => "reload" %>
     <!-- <script src="js/smoothscroll.js"></script> -->
     <!-- wow -->
+    <%= javascript_include_tag "wow.min", "data-turbolinks-track" => "reload" %>
     <!-- <script src="js/wow.min.js"></script> -->
     <!-- text rotater -->
+    <%= javascript_include_tag "jquery.simple-text-rotator", "data-turbolinks-track" => "reload" %>
     <!-- <script src="js/jquery.simple-text-rotator.js"></script> -->
     <!-- custom -->
+    <%= javascript_include_tag "custom", "data-turbolinks-track" => "reload" %>
     <!-- <script src="js/custom.js"></script> -->
   </body>
 </html>
